@@ -1,3 +1,148 @@
+/* Color Palette:
+  #FCFBFA
+  #E0DDD5
+  #4D9CB9
+  #EC8B33
+  #0C1F2E
+  */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: hotpink;
+  line-height: 1.5em;
+  background-color: #0c1f2e;
+  color: #fcfbfa;
+  margin: 0;
+  /*display: grid;
+  grid-template-columns: 5vw auto 5vw;
+  grid-template-rows: auto auto auto;*/
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  grid-area: header;
+  background-color: #fcfbfa;
+  text-align: center;
+}
+
+main {
+  margin-top: 4em;
+  grid-area: main;
+  color: #010304;
+}
+
+footer {
+  padding: 3vh;
+  grid-area: footer;
+  text-align: center;
+  border-top: dotted 0.3em;
+  xbackground-color: salmon;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e0ddd5;
+  height: 2em;
+}
+
+h1 {
+  padding: 1em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yeseva One", cursive;
+  color: #0c1f2e;
+}
+h3 {
+  margin-bottom: -0.5em;
+}
+
+h4,
+h5,
+h6 {
+  color: #4d9cb9;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+a {
+  color: #ec8b33;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0.3em;
+}
+
+.card {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 3em 2em;
+  background-color: #fcfbfa;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  padding: 5vw;
+}
+.skill-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  margin-top: 0;
+  padding-left: 0;
+  gap: 1px 5px;
+}
+
+.skill {
+  list-style-type: none;
+  background-color: #e0ddd5;
+  padding: 5px;
+  margin: 3px 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  margin-top: 0;
+  padding-left: 0;
+  gap: 1px 5px;
+}
+.contact {
+  list-style-type: none;
+  padding: 5px;
+  margin: 3px 0;
+}
+
+.contact-icons {
+  height: 2em;
+  filter: invert(79%) sepia(30%) saturate(6088%) hue-rotate(337deg)
+    brightness(96%) contrast(91%);
+}
+
+.profile-pic {
+  max-width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50vw;
+  align-self: center;
+  margin: -15vh 0 0 0;
 }
