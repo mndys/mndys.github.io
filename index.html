@@ -22,7 +22,8 @@
       <h1>Mandy Schwarze</h1>
       <nav class="main-nav">
         <a href="#contact">Kontakt</a>
-        <a href="#bio">Biografie</a>
+        <a href="#about-me">Über mich</a>
+        <a href="#cv">CV</a>
       </nav>
     </header>
 
@@ -48,10 +49,10 @@
           <li class="skill">Spiele</li>
         </ul>
       </section>
-      <section class="card small-card">
-        <h2 id="contact">Kontakt</h2>
-        <address>
-          <ul class="contact-container">
+      <section class="card small-card" id="contact">
+        <h2>Kontakt</h2>
+        <address class="contact-container">
+          <ul>
             <li class="contact">
               <a href="tel:01726159133">
                 <img
@@ -69,52 +70,49 @@
                   class="contact-icons"
               /></a>
             </li>
+            <li class="contact">
+              <a
+                href="https://github.com/mndys"
+                target="_blank"
+                rel="noreferrer
+                  noopener"
+                ><img
+                  src="images/icons/github-alt-brands.svg"
+                  alt="github"
+                  class="contact-icons"
+                />
+              </a>
+            </li>
+            <li class="contact">
+              <a
+                href="https://codepen.io/mndys"
+                target="_blank"
+                rel="noreferrer
+                  noopener"
+                ><img
+                  src="images/icons/codepen-brands.svg"
+                  alt="codepen"
+                  class="contact-icons"
+              /></a>
+            </li>
+            <li class="contact">
+              <a
+                href="https://www.linkedin.com/in/mandyschwarze/"
+                target="_blank"
+                rel="noreferrer
+                  noopener"
+                ><img
+                  src="images/icons/linkedin-in-brands.svg"
+                  alt="LinkedIn"
+                  class="contact-icons"
+                />
+              </a>
+            </li>
           </ul>
         </address>
-
-        <ul class="contact-container">
-          <li class="contact">
-            <a
-              href="https://github.com/mndys"
-              target="_blank"
-              rel="noreferrer
-              noopener"
-              ><img
-                src="images/icons/github-alt-brands.svg"
-                alt="github"
-                class="contact-icons"
-              />
-            </a>
-          </li>
-          <li class="contact">
-            <a
-              href="https://codepen.io/mndys"
-              target="_blank"
-              rel="noreferrer
-              noopener"
-              ><img
-                src="images/icons/codepen-brands.svg"
-                alt="codepen"
-                class="contact-icons"
-            /></a>
-          </li>
-          <li class="contact">
-            <a
-              href="https://www.linkedin.com/in/mandyschwarze/"
-              target="_blank"
-              rel="noreferrer
-              noopener"
-              ><img
-                src="images/icons/linkedin-in-brands.svg"
-                alt="LinkedIn"
-                class="contact-icons"
-              />
-            </a>
-          </li>
-        </ul>
       </section>
-      <section class="card big-card">
-        <h2 id="bio">Biografie</h2>
+      <section class="card big-card" id="about-me">
+        <h2>Über mich</h2>
         <p>
           Hey! Mein Name ist Mandy und ich durchlaufe momentan das Web
           Development Bootcamp bei
@@ -126,11 +124,12 @@
             >neueFische</a
           >. Studiert habe ich Anglistik/Amerikanistik und Germanistik - nicht
           auf Lehramt - und war seitdem an der Leibniz Universität Hannover in
-          der Lehrkräftebildung als wissenschaftliche Referentin tätig. Schon
-          Anfang 2018 habe ich überlegt, das Bootcamp zu besuchen. Damals habe
-          ich mich aber dazu entschieden praktische Erfahrungen zu sammeln und
-          in diesem Zuge habe ich u. a. mit meinen Kolleginnen das Projekt
-          <a href="https://go.lu-h.de/#LernenVernetzt" target="_blank"
+          der Lehrkräftebildung als wissenschaftliche Referentin im Bereich
+          Digitale Bildung tätig. Schon Anfang 2018 habe ich überlegt, das
+          Bootcamp zu besuchen. Damals habe ich mich aber dazu entschieden
+          praktische Erfahrungen zu sammeln und in diesem Zuge habe ich
+          u.&nbsp;a. mit meinen Kolleginnen das Projekt
+          <a href="https://go.lu-h.de/LernenVernetzt" target="_blank"
             >#LernenVernetzt</a
           >
           ins Leben gerufen. In den letzten 3 Jahren an der Universität habe ich
@@ -141,7 +140,7 @@
           erwartet und freue mich dabei sein zu dürfen!
         </p>
       </section>
-      <section class="card big-card">
+      <section class="card big-card" id="cv">
         <h2>CV</h2>
         <section>
           <h3>Berufserfahrung</h3>
@@ -242,11 +241,11 @@
           </section>
           <h3>Sprachkenntnisse</h3>
           <section>
-            <ul>
-              <li>Deutsch // Muttersprache</li>
-              <li>Englisch // C2</li>
-              <li>Französisch // A2</li>
-              <li>Spanisch // B1</li>
+            <ul class="lang-container">
+              <li class="lang">Deutsch // Muttersprache</li>
+              <li class="lang">Englisch // C2</li>
+              <li class="lang">Französisch // A2</li>
+              <li class="lang">Spanisch // B1</li>
             </ul>
           </section>
         </section>

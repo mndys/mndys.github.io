@@ -19,18 +19,18 @@ body {
   color: #fcfbfa;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 20fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     'header header header'
-    'main main main'
+    '. main .'
     'footer footer footer';
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
 }
 
 main {
-  margin-top: 4em;
+  margin-top: 50px;
   grid-area: main;
   color: #010304;
 }
@@ -44,9 +44,6 @@ h2,
 h3 {
   font-family: 'Yeseva One', cursive;
   color: #0c1f2e;
-}
-h3 {
-  margin-bottom: -0.5em;
 }
 
 h3 ~ h3 {
@@ -104,80 +101,61 @@ p {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  margin: 70px auto;
+  margin: 50px auto;
   background-color: #fcfbfa;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 12px 0 rgba(48, 28, 10, 0.6),
+    0 12px 24px 0 rgba(48, 28, 10, 0.3);
   padding: 30px;
 }
 
 .small-card {
   max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  margin: 70px auto;
-  background-color: #fcfbfa;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  padding: 30px;
 }
 
 .big-card {
   max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  margin: 70px auto;
-  background-color: #fcfbfa;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  padding: 30px;
 }
 
 .profile-pic {
   max-width: 200px;
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 50vw;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   align-self: center;
-  margin: -15vh 0 0 0;
+  position: relative;
+  top: -120px;
 }
 
-.skill-container {
+.skill-container,
+.contact-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin: 15px;
-  margin-top: 0;
   padding-left: 0;
-  gap: 1px 5px;
+  gap: 1px 4px;
 }
 
 .skill,
 .employer,
-.dates {
+.dates,
+.lang {
   background-color: #e0ddd5;
   padding: 5px 15px;
   margin: 3px 0;
 }
 
-.contact-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  margin: 15px;
-  margin-top: 0;
-  padding-left: 0;
-  gap: 1px 5px;
-}
 .contact {
-  padding: 5px;
-  margin: 3px 0;
+  margin: 1px 8px;
 }
 
 .contact-icons {
-  height: 2em;
-  filter: invert(79%) sepia(30%) saturate(6088%) hue-rotate(337deg)
-    brightness(96%) contrast(91%);
+  height: 2.5em;
+  filter: invert(1%) sepia(8%) saturate(7049%) hue-rotate(166deg)
+    brightness(101%) contrast(99%);
+}
+
+.lang-container {
+  justify-content: space-evenly;
 }
 
 .main-footer {
