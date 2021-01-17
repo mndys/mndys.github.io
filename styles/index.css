@@ -29,8 +29,37 @@ body {
   font-weight: 400;
 }
 
+@media all and (min-width: 400px) {
+  main {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 2;
+    grid-template-areas:
+      'sc bc'
+      'sc bc';
+  }
+
+  .card {
+    /* margin: 0 100px; */
+    gap: 12px;
+  }
+
+  .big-card {
+    /* flex: 2 500px;
+    order: 1;
+    margin: 50px; */
+    grid-area: bc;
+    gap: 12px;
+  }
+
+  .small-card {
+    /* flex: 1 1 100%;
+    margin: 50px; */
+    grid-area: sc;
+  }
+}
+
 main {
-  margin-top: 50px;
   grid-area: main;
   color: #010304;
 }
@@ -118,12 +147,11 @@ p {
 }
 
 .profile-pic {
-  max-width: 200px;
+  flex: 1;
+  width: 50%;
   border-radius: 50%;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   align-self: center;
-  position: relative;
-  top: -120px;
 }
 
 .skill-container,
