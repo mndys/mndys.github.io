@@ -10,8 +10,20 @@
   max-width: 500px;
 }
 
+@media all (min-width: 800px) {
+  .small-card {
+    max-width: 500px;
+  }
+}
+
 .big-card {
   max-width: 900px;
+}
+
+@media all (min-width: 800px) {
+  .big-card {
+    max-width: 900px;
+  }
 }
 
 .w-50 {

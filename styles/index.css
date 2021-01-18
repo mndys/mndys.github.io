@@ -4,13 +4,7 @@
 @import 'components/_card.css';
 @import 'components/_main-header.css';
 @import 'components/_main-nav.css';
-
-.profile-pic {
-  flex: 1;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  align-self: center;
-}
+@import 'components/_profile-pic.css';
 
 .container-element {
   background-color: var(--color-lightaccent);
@@ -50,14 +44,6 @@
     align-items: flex-start;
     flex: 50%;
     margin: 20px 10px;
-  }
-
-  .small-card {
-    max-width: 500px;
-  }
-
-  .big-card {
-    max-width: 900px;
   }
 
   #about-me {
