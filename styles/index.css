@@ -13,10 +13,7 @@
   align-self: center;
 }
 
-.skill,
-.employer,
-.dates,
-.lang {
+.container-element {
   background-color: var(--color-lightaccent);
   padding: 5px 15px;
   margin: 3px 0;
