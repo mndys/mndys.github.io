@@ -5,44 +5,7 @@
 @import 'components/_main-header.css';
 @import 'components/_main-nav.css';
 @import 'components/_profile-pic.css';
-
-.container-element {
-  background-color: var(--color-lightaccent);
-  padding: 5px 15px;
-  margin: 3px 0;
-}
-
-.contact {
-  margin: 1px 8px;
-}
-
-.contact-icons {
-  height: 40px;
-  filter: invert(1%) sepia(8%) saturate(7049%) hue-rotate(166deg)
-    brightness(101%) contrast(99%);
-}
-
-.main-footer {
-  padding: 30px;
-  grid-area: footer;
-  text-align: center;
-  border-top: dotted 0.3em;
-}
-
-@media all and (min-width: 800px) {
-  .col-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex: 4;
-    margin: 20px 10px;
-  }
-
-  .col-2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex: 50%;
-    margin: 20px 10px;
-  }
-}
+@import 'components/_col-1.css';
+@import 'components/_col-2.css';
+@import 'components/_contact.css';
+@import 'components/_main-footer.css';

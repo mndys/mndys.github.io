@@ -1,0 +1,9 @@
+.contact {
+  margin: 1px 8px;
+}
+
+.contact-icons {
+  height: 40px;
+  filter: invert(1%) sepia(8%) saturate(7049%) hue-rotate(166deg)
+    brightness(101%) contrast(99%);
+}
