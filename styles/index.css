@@ -1,14 +1,5 @@
-/* Color Palette: */
-:root {
-  --color-light: #fcfbfa;
-  --color-lightaccent: #e0ddd5;
-  --color-primary: #4d9cb9;
-  --color-secondary: #ec8b33;
-  --color-dark: #0c1f2e;
-  --color-black: #010304;
-}
-
 @import '_base.css';
+@import '_variables';
 
 main {
   grid-area: main;
@@ -23,7 +14,7 @@ h1,
 h2,
 h3 {
   font-family: 'Yeseva One', cursive;
-  color: #0c1f2e;
+  color: var(--color-dark);
 }
 
 h3 ~ h3 {
@@ -33,7 +24,7 @@ h3 ~ h3 {
 h4,
 h5,
 h6 {
-  color: #4d9cb9;
+  color: var(--color-primary);
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   margin-bottom: 0;
