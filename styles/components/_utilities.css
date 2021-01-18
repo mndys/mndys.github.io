@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 0;
+  gap: 1px 10px;
+}
+
+.small-card {
+  max-width: 500px;
+}
+
+.big-card {
+  max-width: 900px;
+}
