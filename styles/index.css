@@ -2,15 +2,7 @@
 @import 'components/_variables.css';
 @import 'components/_card.css';
 @import 'components/_main-header.css';
-
-.main-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: var(--color-lightaccent);
-  height: 2em;
-}
+@import 'components/_main-nav.css';
 
 .small-card {
   max-width: 500px;
