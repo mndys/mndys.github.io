@@ -1,0 +1,45 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 0;
+  gap: 1px 10px;
+}
+
+.small-card {
+  max-width: 500px;
+}
+
+@media all and (min-width: 800px) {
+  .small-card {
+    max-width: 500px;
+  }
+}
+
+.big-card {
+  max-width: 900px;
+}
+
+@media all and (min-width: 800px) {
+  .big-card {
+    max-width: 900px;
+  }
+}
+
+.w-50 {
+  width: 50%;
+}
+
+@media (min-width: 800px) {
+  #about-me {
+    order: 1;
+  }
+
+  #contact {
+    order: 2;
+  }
+
+  #cv {
+    order: 3;
+  }
+}
