@@ -1,0 +1,6 @@
+.main-header {
+  grid-area: header;
+  background-color: var(--color-light);
+  text-align: center;
+  margin-bottom: 20px;
+}
