@@ -8,26 +8,7 @@
   --color-black: #010304;
 }
 
-/* element selectors */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  line-height: 1.5em;
-  background-color: #0c1f2e;
-  color: #fcfbfa;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 20fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    'header header header'
-    '. main .'
-    'footer footer footer';
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-}
+@import '_base.css';
 
 main {
   grid-area: main;
