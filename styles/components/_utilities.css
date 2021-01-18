@@ -30,7 +30,7 @@
   width: 50%;
 }
 
-@media (min-width: 800px) {
+@media all and (min-width: 800px) {
   #about-me {
     order: 1;
   }
