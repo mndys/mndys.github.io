@@ -48,10 +48,6 @@
     brightness(101%) contrast(99%);
 }
 
-.lang-container {
-  justify-content: space-evenly;
-}
-
 .main-footer {
   padding: 30px;
   grid-area: footer;
