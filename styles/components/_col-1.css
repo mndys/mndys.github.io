@@ -1,0 +1,9 @@
+@media all and (min-width: 800px) {
+  .col-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 4;
+    margin: 20px 10px;
+  }
+}

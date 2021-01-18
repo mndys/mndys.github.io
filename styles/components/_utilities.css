@@ -26,6 +26,12 @@
   }
 }
 
+.container-element {
+  background-color: var(--color-lightaccent);
+  padding: 5px 15px;
+  margin: 3px 0;
+}
+
 .w-50 {
   width: 50%;
 }

@@ -1,0 +1,6 @@
+.main-footer {
+  padding: 30px;
+  grid-area: footer;
+  text-align: center;
+  border-top: dotted 0.3em;
+}
