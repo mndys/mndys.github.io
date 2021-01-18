@@ -24,6 +24,23 @@ main {
   color: #010304;
 }
 
+@media (min-width: 800px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    width: 1430px;
+    margin: 0 auto;
+  }
+}
+
 h1 {
   padding: 1em;
 }
