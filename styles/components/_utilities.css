@@ -13,3 +13,7 @@
 .big-card {
   max-width: 900px;
 }
+
+.w-50 {
+  width: 50%;
+}

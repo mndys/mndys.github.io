@@ -7,7 +7,6 @@
 
 .profile-pic {
   flex: 1;
-  width: 50%;
   border-radius: 50%;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   align-self: center;
