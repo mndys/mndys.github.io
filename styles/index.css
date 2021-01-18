@@ -1,5 +1,5 @@
-@import '_base.css';
-@import '_variables';
+@import 'components/_base.css';
+@import 'components/_variables.css';
 
 main {
   grid-area: main;
