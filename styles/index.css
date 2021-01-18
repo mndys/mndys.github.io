@@ -17,7 +17,7 @@
 }
 
 .contact-icons {
-  height: 2.5em;
+  height: 40px;
   filter: invert(1%) sepia(8%) saturate(7049%) hue-rotate(166deg)
     brightness(101%) contrast(99%);
 }
@@ -29,12 +29,12 @@
   border-top: dotted 0.3em;
 }
 
-@media (min-width: 800px) {
+@media all and (min-width: 800px) {
   .col-1 {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex: 33%;
+    flex: 4;
     margin: 20px 10px;
   }
 
