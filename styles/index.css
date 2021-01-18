@@ -168,11 +168,29 @@ p {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .col-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 33%;
+    margin: 20px 10px;
+  }
+
+  .col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 50%;
+    margin: 20px 10px;
   }
 
   .card {
-    flex: 33%;
-    margin: 50px 20px;
+    flex: 50%;
+    margin: 20px 10px;
   }
   .small-card {
     max-width: 500px;
@@ -192,5 +210,12 @@ p {
 
   #cv {
     order: 3;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    width: 1400px;
+    margin: 0 auto;
   }
 }
