@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mndys/personal-website.git"
+  },
+  "author": "Mandy Schwarze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mndys/personal-website/issues"
+  },
+  "homepage": "https://mndys.github.io",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
