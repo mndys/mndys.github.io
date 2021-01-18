@@ -45,16 +45,4 @@
     flex: 50%;
     margin: 20px 10px;
   }
-
-  #about-me {
-    order: 1;
-  }
-
-  #contact {
-    order: 2;
-  }
-
-  #cv {
-    order: 3;
-  }
 }

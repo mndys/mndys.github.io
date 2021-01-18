@@ -29,3 +29,17 @@
 .w-50 {
   width: 50%;
 }
+
+@media (min-width: 800px) {
+  #about-me {
+    order: 1;
+  }
+
+  #contact {
+    order: 2;
+  }
+
+  #cv {
+    order: 3;
+  }
+}
