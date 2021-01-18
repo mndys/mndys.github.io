@@ -29,36 +29,6 @@ body {
   font-weight: 400;
 }
 
-@media all and (min-width: 400px) {
-  main {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 2;
-    grid-template-areas:
-      'sc bc'
-      'sc bc';
-  }
-
-  .card {
-    /* margin: 0 100px; */
-    gap: 12px;
-  }
-
-  .big-card {
-    /* flex: 2 500px;
-    order: 1;
-    margin: 50px; */
-    grid-area: bc;
-    gap: 12px;
-  }
-
-  .small-card {
-    /* flex: 1 1 100%;
-    margin: 50px; */
-    grid-area: sc;
-  }
-}
-
 main {
   grid-area: main;
   color: #010304;
@@ -191,4 +161,37 @@ p {
   grid-area: footer;
   text-align: center;
   border-top: dotted 0.3em;
+}
+
+@media (min-width: 800px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .card {
+    margin: 50px 20px;
+  }
+  .small-card {
+    flex: 33%;
+    max-width: 480px;
+  }
+
+  .big-card {
+    flex: 66%;
+    max-width: 1000px;
+  }
+
+  #about-me {
+    order: 1;
+  }
+
+  #contact {
+    order: 2;
+  }
+
+  #cv {
+    order: 3;
+  }
 }
