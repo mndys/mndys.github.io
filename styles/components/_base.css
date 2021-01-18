@@ -34,7 +34,7 @@ main {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1430px) {
   main {
     width: 1430px;
     margin: 0 auto;
